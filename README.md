@@ -6,4 +6,5 @@ This repository is an implementation of L1-BatchNorm proposed by Hoffer et.al in
 L1-BatchNorm is tested against two variants of traditional batchnorm (one in which batchnorm layer is before the activation layer and one in which it is after). The dataset is Imagenette2-160 by fastai (https://github.com/fastai/imagenette) and code is based on fastaiv2 library.
  
 The WandB report of the experiments can be seen here -> https://app.wandb.ai/a_bhimanyu/BatchNorm/reports/Testing-Various-Variants-of-BatchNorm--VmlldzoxNzEzNTc
+L1-BatchNorm does better than both variants of L2-BatchNorm, during training and validation.
 
